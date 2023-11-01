@@ -1,0 +1,1089 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Food Restaurant</title>
+    <!-- Web app manifest -->
+    <link rel='manifest' href='../manifest.json'>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great" rel="stylesheet">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="CSS/bootstrap.min.css">
+    <!-- Animate.css -->
+    <link rel="stylesheet" href="CSS/css/animate.css">
+    <!-- Default stylesheet -->
+    <link rel="stylesheet" href="CSS/css/main.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+
+<body>
+    <!-- <script>
+        document.write("Hello write()");
+        alert("Alert function");
+        console.log("This is my console");
+    </script> -->
+    <!-- Navbar -->
+    <nav class="navbar nav-color bg-dark navbar-expand-lg  shadow py-3 sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="images/restorand-logo.jpg" alt="" width="50px" height="50px">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon">llll</span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="/index.html"><span>Home</span></a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="#menu"><span>Menu</span></a>
+                    </li>
+                    <!-- <li class="nav-item">
+                        <a class="nav-link" href="#features">Features</a>
+                    </li> -->
+                   
+                    <li class="nav-item">
+                        <a class="nav-link" href="/reservations.html"><span>Reservation</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#blog"><span>Blog</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/about.html"><span>About</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/contact.html"><span>Contact</span></a>
+                    </li>
+
+
+                </ul>
+                <div>
+                  <div>
+                    <a href="/login.html" class="btn btn-brand">Login</a>
+                  </div>
+
+                </div>
+                <a href="/order.html" class="btn btn-brand"><span class="yellow"></span>Make an Order</a>
+            </div>
+        </div>
+    </nav>
+    <!-- hero Slider && cover page-->
+    <div id="cover" class="cover carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#cover" data-slide-to="0" class="active"></li>
+          <li data-target="#cover" data-slide-to="1"></li>
+          <li data-target="#cover" data-slide-to="2"></li>
+          <li data-target="#cover" data-slide-to="3"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="dark-overlay carousel-item active">
+            <img
+              sizes="(max-width: 2560px) 100vw, 2560px"
+              srcset="
+                https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_320/v1535322021/website-template-3/cover-homepage-1.jpg 320w,
+                https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_563/v1535322021/website-template-3/cover-homepage-1.jpg 563w,
+                https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_770/v1535322021/website-template-3/cover-homepage-1.jpg 770w,
+                https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_956/v1535322021/website-template-3/cover-homepage-1.jpg 956w,
+                https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_1109/v1535322021/website-template-3/cover-homepage-1.jpg 1109w,
+                https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_1283/v1535322021/website-template-3/cover-homepage-1.jpg 1283w,
+                https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_1439/v1535322021/website-template-3/cover-homepage-1.jpg 1439w,
+                https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_1580/v1535322021/website-template-3/cover-homepage-1.jpg 1580w,
+                https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_1712/v1535322021/website-template-3/cover-homepage-1.jpg 1712w,
+                https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_1864/v1535322021/website-template-3/cover-homepage-1.jpg 1864w,
+                https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_1993/v1535322021/website-template-3/cover-homepage-1.jpg 1993w,
+                https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_2115/v1535322021/website-template-3/cover-homepage-1.jpg 2115w,
+                https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_2246/v1535322021/website-template-3/cover-homepage-1.jpg 2246w,
+                https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_2377/v1535322021/website-template-3/cover-homepage-1.jpg 2377w,
+                https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_2506/v1535322021/website-template-3/cover-homepage-1.jpg 2506w,
+                https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_2560/v1535322021/website-template-3/cover-homepage-1.jpg 2560w"
+              src="https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_2560/v1535322021/website-template-3/cover-homepage-1.jpg"
+              alt="First slide">
+            <div class="carousel-caption">
+              <h1 class="brand-title display-2 animated fadeInDown">Friend</h1>
+              <h4 class="brand-description animated fadeInDown">Food &amp; RESTAURANT</h4>
+              <a class="mt-3 btn btn-light animated fadeInUp" href="./reservations.html" role="button">BOOK NOW</a>
+            </div>
+          </div>
+          <div class="dark-overlay carousel-item">
+            <img
+              sizes="(max-width: 2560px) 100vw, 2560px"
+              srcset="
+                https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_320/v1535322195/website-template-3/cover-homepage-2.jpg 320w,
+                https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_618/v1535322195/website-template-3/cover-homepage-2.jpg 618w,
+                https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_842/v1535322195/website-template-3/cover-homepage-2.jpg 842w,
+                https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_1037/v1535322195/website-template-3/cover-homepage-2.jpg 1037w,
+                https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_1200/v1535322195/website-template-3/cover-homepage-2.jpg 1200w,
+                https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_1326/v1535322195/website-template-3/cover-homepage-2.jpg 1326w,
+                https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_1439/v1535322195/website-template-3/cover-homepage-2.jpg 1439w,
+                https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_1541/v1535322195/website-template-3/cover-homepage-2.jpg 1541w,
+                https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_1639/v1535322195/website-template-3/cover-homepage-2.jpg 1639w,
+                https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_1724/v1535322195/website-template-3/cover-homepage-2.jpg 1724w,
+                https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_1808/v1535322195/website-template-3/cover-homepage-2.jpg 1808w,
+                https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_1886/v1535322195/website-template-3/cover-homepage-2.jpg 1886w,
+                https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_1963/v1535322195/website-template-3/cover-homepage-2.jpg 1963w,
+                https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_2037/v1535322195/website-template-3/cover-homepage-2.jpg 2037w,
+                https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_2108/v1535322195/website-template-3/cover-homepage-2.jpg 2108w,
+                https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_2169/v1535322195/website-template-3/cover-homepage-2.jpg 2169w,
+                https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_2238/v1535322195/website-template-3/cover-homepage-2.jpg 2238w,
+                https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_2301/v1535322195/website-template-3/cover-homepage-2.jpg 2301w,
+                https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_2361/v1535322195/website-template-3/cover-homepage-2.jpg 2361w,
+                https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_2420/v1535322195/website-template-3/cover-homepage-2.jpg 2420w,
+                https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_2477/v1535322195/website-template-3/cover-homepage-2.jpg 2477w,
+                https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_2536/v1535322195/website-template-3/cover-homepage-2.jpg 2536w,
+                https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_2558/v1535322195/website-template-3/cover-homepage-2.jpg 2558w,
+                https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_2560/v1535322195/website-template-3/cover-homepage-2.jpg 2560w"
+              src="https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_2560/v1535322195/website-template-3/cover-homepage-2.jpg"
+              alt="Second slide">
+            <div class="carousel-caption">
+              <h1 class="brand-title display-2 animated fadeInDown">Friend</h1>
+              <h4 class="brand-description animated fadeInDown">Food &amp; RESTAURANT</h4>
+              <a class="mt-3 btn btn-light animated fadeInUp" href="./reservations.html" role="button">BOOK NOW</a>
+            </div>
+          </div>
+          <div class="dark-overlay carousel-item">
+            <img
+              sizes="(max-width: 2560px) 100vw, 2560px"
+              srcset="
+                https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_320/v1535322301/website-template-3/cover-homepage-3.jpg 320w,
+                https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_525/v1535322301/website-template-3/cover-homepage-3.jpg 525w,
+                https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_682/v1535322301/website-template-3/cover-homepage-3.jpg 682w,
+                https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_827/v1535322301/website-template-3/cover-homepage-3.jpg 827w,
+                https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_945/v1535322301/website-template-3/cover-homepage-3.jpg 945w,
+                https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_1052/v1535322301/website-template-3/cover-homepage-3.jpg 1052w,
+                https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_1153/v1535322301/website-template-3/cover-homepage-3.jpg 1153w,
+                https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_1251/v1535322301/website-template-3/cover-homepage-3.jpg 1251w,
+                https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_1346/v1535322301/website-template-3/cover-homepage-3.jpg 1346w,
+                https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_1427/v1535322301/website-template-3/cover-homepage-3.jpg 1427w,
+                https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_1506/v1535322301/website-template-3/cover-homepage-3.jpg 1506w,
+                https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_1592/v1535322301/website-template-3/cover-homepage-3.jpg 1592w,
+                https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_1680/v1535322301/website-template-3/cover-homepage-3.jpg 1680w,
+                https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_1760/v1535322301/website-template-3/cover-homepage-3.jpg 1760w,
+                https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_1814/v1535322301/website-template-3/cover-homepage-3.jpg 1814w,
+                https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_1895/v1535322301/website-template-3/cover-homepage-3.jpg 1895w,
+                https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_1972/v1535322301/website-template-3/cover-homepage-3.jpg 1972w,
+                https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_2034/v1535322301/website-template-3/cover-homepage-3.jpg 2034w,
+                https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_2107/v1535322301/website-template-3/cover-homepage-3.jpg 2107w,
+                https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_2174/v1535322301/website-template-3/cover-homepage-3.jpg 2174w,
+                https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_2245/v1535322301/website-template-3/cover-homepage-3.jpg 2245w,
+                https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_2302/v1535322301/website-template-3/cover-homepage-3.jpg 2302w,
+                https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_2366/v1535322301/website-template-3/cover-homepage-3.jpg 2366w,
+                https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_2429/v1535322301/website-template-3/cover-homepage-3.jpg 2429w,
+                https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_2497/v1535322301/website-template-3/cover-homepage-3.jpg 2497w,
+                https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_2559/v1535322301/website-template-3/cover-homepage-3.jpg 2559w,
+                https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_2555/v1535322301/website-template-3/cover-homepage-3.jpg 2555w,
+                https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_2560/v1535322301/website-template-3/cover-homepage-3.jpg 2560w"
+              src="https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_2560/v1535322301/website-template-3/cover-homepage-3.jpg"
+              alt="Third slide">
+            <div class="container">
+              <div class="carousel-caption">
+                <h1 class="brand-title display-2 animated fadeInDown">GRECKO</h1>
+                <h4 class="brand-description animated fadeInDown">BAR &amp; RESTAURANT</h4>
+                <a class="mt-3 btn btn-light animated fadeInUp" href="pages/reservations.html" role="button">BOOK NOW</a>
+              </div>
+            </div>
+          </div>
+          <div class="dark-overlay carousel-item">
+            <img
+              sizes="(max-width: 2560px) 100vw, 2560px"
+              srcset="
+                https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_320/v1535322386/website-template-3/cover-homepage-4.jpg 320w,
+                https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_572/v1535322386/website-template-3/cover-homepage-4.jpg 572w,
+                https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_782/v1535322386/website-template-3/cover-homepage-4.jpg 782w,
+                https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_969/v1535322386/website-template-3/cover-homepage-4.jpg 969w,
+                https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_1131/v1535322386/website-template-3/cover-homepage-4.jpg 1131w,
+                https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_1291/v1535322386/website-template-3/cover-homepage-4.jpg 1291w,
+                https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_1446/v1535322386/website-template-3/cover-homepage-4.jpg 1446w,
+                https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_1583/v1535322386/website-template-3/cover-homepage-4.jpg 1583w,
+                https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_1713/v1535322386/website-template-3/cover-homepage-4.jpg 1713w,
+                https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_1837/v1535322386/website-template-3/cover-homepage-4.jpg 1837w,
+                https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_1959/v1535322386/website-template-3/cover-homepage-4.jpg 1959w,
+                https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_2075/v1535322386/website-template-3/cover-homepage-4.jpg 2075w,
+                https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_2193/v1535322386/website-template-3/cover-homepage-4.jpg 2193w,
+                https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_2305/v1535322386/website-template-3/cover-homepage-4.jpg 2305w,
+                https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_2407/v1535322386/website-template-3/cover-homepage-4.jpg 2407w,
+                https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_2513/v1535322386/website-template-3/cover-homepage-4.jpg 2513w,
+                https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_2560/v1535322386/website-template-3/cover-homepage-4.jpg 2560w"
+              src="https://res.cloudinary.com/pictureelement/image/upload/q_auto,f_auto,c_scale,w_2560/v1535322386/website-template-3/cover-homepage-4.jpg"
+              alt="Fourth slide">
+            <div class="container">
+              <div class="carousel-caption">
+                <h1 class="brand-title display-2 animated fadeInDown">Friend</h1>
+                <h4 class="brand-description animated fadeInDown">Food &amp; RESTAURANT</h4>
+                <a class="mt-3 btn btn-light animated fadeInUp" href="pages/reservations.html" role="button">BOOK NOW</a>
+              </div>
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#cover" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#cover" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+    <!-- <div id="heroSlider" class="carousel slide">
+        <div class="carousel-inner">
+            <div class="carousel-item text-center bg-cover vh-100 active slide-1">
+                <div class="container h-100 d-flex align-items-center justify-content-center">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <h6 class="text-white">WELCOME TO OUR RESTURANT</h6>
+                            <h1 class="display-1 fw-bold text-white">Char-grilled and flavor-filled</h1>
+                            <a href="#" class="btn btn-brand">Reservation</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="carousel-item text-center bg-cover vh-100 slide-2">
+                <div class="container h-100 d-flex align-items-center justify-content-center">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <h6 class="text-white">WELCOME TO OUR RESTURANT</h6>
+                            <h1 class="display-1 fw-bold text-white">Fresh & Tasty Food</h1>
+                            <a href="#" class="btn btn-brand">Reservation</a>
+
+
+
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="heroSlider" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#heroSlider" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div> -->
+    <!-- About -->
+    <section id="about">
+        <div class="container">
+            <div class="row gy-4 align-items-center">
+                <div class="col-lg-5">
+                    <img src="images/about.jpg" alt="">
+                </div>
+                <div class="col-lg-5">
+                    <h1>About us</h1>
+                    <div class="divider my-4"></div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem nostrum repudiandae recusandae,
+                        molestias repellendus aperiam neque.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus accusantium nesciunt
+                        corporis atque labore natus libero, sit ut cumque maiores harum voluptate.</p>
+                    <a href="#" class="btn btn-brand">Explore Menu</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Menu -->
+    <section id="menu" class="bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 intro-text">
+                    <h1>Explore Our Menu</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates repellendus perferendis cum
+                        magni quis veniam laboriosam debitis?</p>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <ul class="nav nav-pills mb-3 justify-content-center" id="pills-tab" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link active" id="pills-all-tab" data-bs-toggle="pill" data-bs-target="#pills-all"
+                        type="button" role="tab" aria-controls="pills-all" aria-selected="true">All Items</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="pills-breakfast-tab" data-bs-toggle="pill"
+                        data-bs-target="#pills-breakfast" type="button" role="tab" aria-controls="pills-breakfast"
+                        aria-selected="true">Breakfast</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="pills-lunch-tab" data-bs-toggle="pill" data-bs-target="#pills-lunch"
+                        type="button" role="tab" aria-controls="pills-lunch" aria-selected="true">Lunch</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="pills-dinner-tab" data-bs-toggle="pill" data-bs-target="#pills-dinner"
+                        type="button" role="tab" aria-controls="pills-dinner" aria-selected="true">Dinner</button>
+                </li>
+
+            </ul>
+            <div class="tab-content" id="pills-tabContent">
+                <div class="tab-pane fade show active" id="pills-all" role="tabpanel" aria-labelledby="pills-all-tab"
+                    tabindex="0">
+                    <div class="row">
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="menu-item bg-white shadow-on-hover">
+                                <img src="images/pasta20.jpg" alt="">
+                                <div class="menu-item-content p-4">
+                                    <span>Rated(5.4)</span>
+                                    <span class="stars">
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-half-fill"></i>
+                                    </span>
+
+                                </div>
+                                <h5 class="mt-1 mb-2"><a href="#">Fudgy Chewy Brownies</a></h5>
+                                <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore
+                                    expedita voluptate totam.
+
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="menu-item bg-white shadow-on-hover">
+                                <img src="images/pasta.jpg" alt="">
+                                <div class="menu-item-content p-4">
+                                    <span>Rated(5.4)</span>
+                                    <span class="stars">
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-half-fill"></i>
+                                    </span>
+
+                                </div>
+                                <h5 class="mt-1 mb-2"><a href="#">Fudgy Chewy Brownies</a></h5>
+                                <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore
+                                    expedita voluptate totam.</p>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="menu-item bg-white shadow-on-hover">
+                                <img src="images/berger.jpg" alt="">
+                                <div class="menu-item-content p-4">
+                                    <span>Rated(5.4)</span>
+                                    <span class="stars">
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-half-fill"></i>
+                                    </span>
+
+                                </div>
+                                <h5 class="mt-1 mb-2"><a href="#">Fudgy Chewy Brownies</a></h5>
+                                <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore
+                                    expedita voluptate totam.
+
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="menu-item bg-white shadow-on-hover">
+                                <img src="images/chicken chow 20.jpg" alt="">
+                                <div class="menu-item-content p-4">
+                                    <span>Rated(5.4)</span>
+                                    <span class="stars">
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-half-fill"></i>
+                                    </span>
+
+                                </div>
+                                <h5 class="mt-1 mb-2"><a href="#">Fudgy Chewy Brownies</a></h5>
+                                <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore
+                                    expedita voluptate totam.
+
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="menu-item bg-white shadow-on-hover">
+                                <img src="images/fresh and tasty food.jpg" alt="">
+                                <div class="menu-item-content p-4">
+                                    <span>Rated(5.4)</span>
+                                    <span class="stars">
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-half-fill"></i>
+                                    </span>
+
+                                </div>
+                                <h5 class="mt-1 mb-2"><a href="#">Fudgy Chewy Brownies</a></h5>
+                                <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore
+                                    expedita voluptate totam.
+
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="menu-item bg-white shadow-on-hover">
+                                <img src="images/Curry.jpeg" alt="">
+                                <div class="menu-item-content p-4">
+                                    <span>Rated(5.4)</span>
+                                    <span class="stars">
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-half-fill"></i>
+                                    </span>
+
+                                </div>
+                                <h5 class="mt-1 mb-2"><a href="#">Fudgy Chewy Brownies</a></h5>
+                                <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore
+                                    expedita voluptate totam.
+
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="menu-item bg-white shadow-on-hover">
+                                <img src="images/noodles 10.jpg" alt="">
+                                <div class="menu-item-content p-4">
+                                    <span>Rated(5.4)</span>
+                                    <span class="stars">
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-half-fill"></i>
+                                    </span>
+
+                                </div>
+                                <h5 class="mt-1 mb-2"><a href="#">Fudgy Chewy Brownies</a></h5>
+                                <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore
+                                    expedita voluptate totam.
+
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="menu-item bg-white shadow-on-hover">
+                                <img src="images/pizza 20.jpg" alt="">
+                                <div class="menu-item-content p-4">
+                                    <span>Rated(5.4)</span>
+                                    <span class="stars">
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-half-fill"></i>
+                                    </span>
+
+                                </div>
+                                <h5 class="mt-1 mb-2"><a href="#">Fudgy Chewy Brownies</a></h5>
+                                <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore
+                                    expedita voluptate totam.
+
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        </div>
+
+        </div>
+
+        </div>
+
+        <div class="tab-content" id="pills-tabContent">
+            <div class="tab-pane fade show" id="pills-breakfast" role="tabpanel" aria-labelledby="pills-breakfast-tab"
+                tabindex="0">
+                <div class="row">
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="menu-item bg-white shadow-on-hover">
+                            <img src="images/pasta20.jpg" alt="">
+                            <div class="menu-item-content p-4">
+                                <span>Rated(5.4)</span>
+                                <span class="stars">
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-half-fill"></i>
+                                </span>
+
+                            </div>
+                            <h5 class="mt-1 mb-2"><a href="#">Fudgy Chewy Brownies</a></h5>
+                            <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore expedita
+                                voluptate totam.
+
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="menu-item bg-white shadow-on-hover">
+                            <img src="images/noodles 10.jpg" alt="">
+                            <div class="menu-item-content p-4">
+                                <span>Rated(5.4)</span>
+                                <span class="stars">
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-half-fill"></i>
+                                </span>
+
+                            </div>
+                            <h5 class="mt-1 mb-2"><a href="#">Fudgy Chewy Brownies</a></h5>
+                            <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore expedita
+                                voluptate totam.
+
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="menu-item bg-white shadow-on-hover">
+                            <img src="images/pizza10.jpg" alt="">
+                            <div class="menu-item-content p-4">
+                                <span>Rated(5.4)</span>
+                                <span class="stars">
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-half-fill"></i>
+                                </span>
+
+                            </div>
+                            <h5 class="mt-1 mb-2"><a href="#">Fudgy Chewy Brownies</a></h5>
+                            <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore expedita
+                                voluptate totam.
+
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="menu-item bg-white shadow-on-hover">
+                            <img src="images/salad20.jpg" alt="">
+                            <div class="menu-item-content p-4">
+                                <span>Rated(5.4)</span>
+                                <span class="stars">
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-half-fill"></i>
+                                </span>
+
+                            </div>
+                            <h5 class="mt-1 mb-2"><a href="#">Fudgy Chewy Brownies</a></h5>
+                            <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore expedita
+                                voluptate totam.
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        </div>
+        </div>
+
+        </div>
+        <div class="tab-content" id="pills-tabContent">
+            <div class="tab-pane fade show" id="pills-lunch" role="tabpanel" aria-labelledby="pills-lunch-tab"
+                tabindex="0">
+                <div class="row">
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="menu-item bg-white shadow-on-hover">
+                            <img src="images/pizza 20.jpg" alt="">
+                            <div class="menu-item-content p-4">
+                                <span>Rated(5.4)</span>
+                                <span class="stars">
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-half-fill"></i>
+                                </span>
+
+                            </div>
+                            <h5 class="mt-1 mb-2"><a href="#">Fudgy Chewy Brownies</a></h5>
+                            <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore expedita
+                                voluptate totam.
+
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="menu-item bg-white shadow-on-hover">
+                            <img src="images/pasta.jpg" alt="">
+                            <div class="menu-item-content p-4">
+                                <span>Rated(5.4)</span>
+                                <span class="stars">
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-half-fill"></i>
+                                </span>
+
+                            </div>
+                            <h5 class="mt-1 mb-2"><a href="#">Fudgy Chewy Brownies</a></h5>
+                            <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore expedita
+                                voluptate totam.
+
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="menu-item bg-white shadow-on-hover">
+                            <img src="images/Curry.jpeg" alt="">
+                            <div class="menu-item-content p-4">
+                                <span>Rated(5.4)</span>
+                                <span class="stars">
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-half-fill"></i>
+                                </span>
+
+                            </div>
+                            <h5 class="mt-1 mb-2"><a href="#">Fudgy Chewy Brownies</a></h5>
+                            <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore expedita
+                                voluptate totam.
+
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="menu-item bg-white shadow-on-hover">
+                            <img src="images/pasta20.jpg" alt="">
+                            <div class="menu-item-content p-4">
+                                <span>Rated(5.4)</span>
+                                <span class="stars">
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-half-fill"></i>
+                                </span>
+
+                            </div>
+                            <h5 class="mt-1 mb-2"><a href="#">Fudgy Chewy Brownies</a></h5>
+                            <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore expedita
+                                voluptate totam.
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        </div>
+        </div>
+
+        </div>
+        <div class="tab-content" id="pills-tabContent">
+            <div class="tab-pane fade show" id="pills-dinner" role="tabpanel" aria-labelledby="pills-dinner-tab"
+                tabindex="0">
+                <div class="row">
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="menu-item bg-white shadow-on-hover">
+                            <img src="images/whitefish.jpg" height="300px" alt="">
+                            <div class="menu-item-content p-4">
+                                <span>Rated(5.4)</span>
+                                <span class="stars">
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-half-fill"></i>
+                                </span>
+
+                            </div>
+                            <h5 class="mt-1 mb-2"><a href="#">Fudgy Chewy Brownies</a></h5>
+                            <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore expedita
+                                voluptate totam.
+
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="menu-item bg-white shadow-on-hover">
+                            <img src="images/whitefish20.jpg" alt="">
+                            <div class="menu-item-content p-4">
+                                <span>Rated(5.4)</span>
+                                <span class="stars">
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-half-fill"></i>
+                                </span>
+
+                            </div>
+                            <h5 class="mt-1 mb-2"><a href="#">Fudgy Chewy Brownies</a></h5>
+                            <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore expedita
+                                voluptate totam.
+
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="menu-item bg-white shadow-on-hover">
+                            <img src="images/fried rice 10.jpg" height="290px" alt="">
+                            <div class="menu-item-content p-4">
+                                <span>Rated(5.4)</span>
+                                <span class="stars">
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-half-fill"></i>
+                                </span>
+
+                            </div>
+                            <h5 class="mt-1 mb-2"><a href="#">Fudgy Chewy Brownies</a></h5>
+                            <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore expedita
+                                voluptate totam.
+
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="menu-item bg-white shadow-on-hover">
+                            <img src="images/pasta20.jpg" alt="">
+                            <div class="menu-item-content p-4">
+                                <span>Rated(5.4)</span>
+                                <span class="stars">
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-half-fill"></i>
+                                </span>
+
+                            </div>
+                            <h5 class="mt-1 mb-2"><a href="#">Fudgy Chewy Brownies</a></h5>
+                            <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore expedita
+                                voluptate totam.
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        </div>
+        </div>
+
+        </div>
+        </div>
+    </section>
+
+    <!-- Features -->
+    <section id="features" class="bg-cover">
+        <div class="container">
+            <div class="row gy-4">
+                <div class="col-12 intro-text">
+                    <h1 class="text-white">Why to choose us?</h1>
+                    <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates
+                        repellendus perferendis cum
+                        magni quis veniam laboriosam debitis?</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-sm-6">
+                    <div class="feature p-4 text-center">
+                        <div class="feature-icon">
+                            <i class="ri-wifi-fill"></i>
+                        </div>
+                        <h4 class="text-white mt-4 mb-2">Free Wifi</h4>
+                        <p class="text-white">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus nihil,
+                            cupiditate rem sit dolorem atque!</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="feature p-4 text-center">
+                        <div class="feature-icon">
+                            <i class="ri-timer-2-fill"></i>
+                        </div>
+                        <h4 class="text-white mt-4 mb-2">Fast Delivery</h4>
+                        <p class="text-white">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus nihil,
+                            cupiditate rem sit dolorem atque!</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="feature p-4 text-center">
+                        <div class="feature-icon">
+                            <i class="ri-user-5-fill"></i>
+                        </div>
+                        <h4 class="text-white mt-4 mb-2">Friendly Staff</h4>
+                        <p class="text-white">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus nihil,
+                            cupiditate rem sit dolorem atque!</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="feature p-4 text-center">
+                        <div class="feature-icon">
+                            <i class="ri-shield-star-fill"></i>
+                        </div>
+                        <h4 class="text-white mt-4 mb-2">Highly Rated</h4>
+                        <p class="text-white">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus nihil,
+                            cupiditate rem sit dolorem atque!</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+    <!-- Team -->
+    <section id="team">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 intro-text">
+                    <h1>Our Team Members</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates repellendus perferendis cum
+                        magni quis veniam laboriosam debitis?</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-sm-6">
+                    <div class="team-member border shadow-on-hover text-center">
+                        <img src="images/chef10.png" alt="">
+                        <div class="team-member-content">
+                            <h4 class="mb-0">Kohn Doe</h4>
+                            <p class="mb-0">Main chef</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="team-member px-4 py-4 border shadow-on-hover text-center">
+                        <img src="images/about.jpg" alt="">
+                        <div class="team-member-content">
+                            <h4 class="mb-0 mt-2">Hasem De</h4>
+                            <p class="mb-0">Main chef</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-sm-6">
+                    <div class="team-member border shadow-on-hover text-center">
+                        <img src="images/chef11.png" alt="">
+                        <div class="team-member-content">
+                            <h4 class="mb-0">Protik Dae</h4>
+                            <p class="mb-0">Main chef</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="team-member py-0 border shadow-on-hover text-center">
+                        <img src="images/chef13.png" height="160px" alt="">
+                        <div class="team-member-content">
+                            <h4 class="mb-0">Eohn Ee</h4>
+                            <p class="mb-0">Main chef</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+    <!-- Reservation -->
+    <section id="reservation">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 intro-text">
+                    <h1>Book Your Table</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates repellendus perferendis cum
+                        magni quis veniam laboriosam debitis?</p>
+                </div>
+            </div>
+
+            <form action="#" class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="row g-3">
+                        <div class="form-group col-md-6">
+                            <input type="text" class="form-control" placeholder="Full name">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <input type="email" class="form-control" placeholder="Email address">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <input type="text" class="form-control" placeholder="Date">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <input type="text" class="form-control" placeholder="Time">
+                        </div>
+                        <div class="form-group col-md-12">
+                            <textarea name="" id="" cols="30" rows="4" class="form-control"
+                                placeholder="Message"></textarea>
+                        </div>
+                        <div class="form-group text-center col-md-12">
+                            <a href="#" class="btn btn-brand">Send Message</a>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+    </section>
+    <!-- Blog Post -->
+    <section id="blog">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 intro-text">
+                    <h1>Blog Posts</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates repellendus perferendis cum
+                        magni quis veniam laboriosam debitis?</p>
+                </div>
+            </div>
+            <div class="row gy-4">
+                <div class="col-sm-6">
+                    <div class="blog-post d-flex shadow-on-hover">
+                        <img src="images/noodles 10.jpg" alt="">
+                        <div class="blog-post-content p-4">
+                            <p>Posed: 23 Dec, 2020</p>
+                            <h4><a href="#">How to make delicious food</a></h4>
+                            <p>Consectetur adipisicing elit.Consequatur architectur quisquam cumque!</p>
+                            <a href="#">Read more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="blog-post d-flex shadow-on-hover">
+                        <img src="images/berger.jpg" alt="">
+                        <div class="blog-post-content p-4">
+                            <p>Posed: 23 Dec, 2020</p>
+                            <h4><a href="#">How to make delicious food</a></h4>
+                            <p>Consectetur adipisicing elit.Consequatur architectur quisquam cumque!</p>
+                            <a href="#">Read more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="blog-post d-flex shadow-on-hover">
+                        <img src="images/pizza 20.jpg" alt="">
+                        <div class="blog-post-content p-4">
+                            <p>Posed: 23 Dec, 2020</p>
+                            <h4><a href="#">How to make delicious food</a></h4>
+                            <p>Consectetur adipisicing elit.Consequatur architectur quisquam cumque!</p>
+                            <a href="#">Read more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="blog-post d-flex shadow-on-hover">
+                        <img src="images/pizza10.jpg" alt="">
+                        <div class="blog-post-content p-4">
+                            <p>Posed: 23 Dec, 2020</p>
+                            <h4><a href="#">How to make delicious food</a></h4>
+                            <p>Consectetur adipisicing elit.Consequatur architectur quisquam cumque!</p>
+                            <a href="#">Read more</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+    <!-- footer -->
+    <footer class="page-footer">
+        <div class="container">
+          <a class="navbar-brand animated pulse d-block text-center m-0 p-0" href="#">
+            <img src="images/restorand-logo.jpg" width="50" height="50" alt="Logo">
+          </a>
+          <div class="row">
+            <div class="col-md-3">
+              <h5 class="page-footer-title">OPENING HOURS</h5>
+              <p class="mb-0">Open daily from 8am</p> 
+              <p class="mb-0">Bar: Daily from 8am - 12pm</p> 
+              <p class="mb-0">Breakfast: Daily from 8am - 11am</p> 
+              <p class="mb-0">Lunch: Daily from 12pm - 3pm</p>
+              <p>Dinner: Daily from 6pm - 12pm</p>
+            </div>
+            <div class="col-md-3 h-100 border-left-custom">
+              <h5 class="page-footer-title mt-3 mt-md-0">LOCATION</h5>
+              <address>
+               Food Fanda &amp; Food Restaurant<br>
+                24 Jahangirnagor University.<br>
+                846 00, savar, Dhaka<br>
+                <abbr title="Phone">P:</abbr> (123) 456-7890<br>
+                <abbr title="Email">E:</abbr> info@tamu.com
+              </address>
+            </div>
+            <div class="col-md-3 h-100 border-left-custom">
+              <h5 class="page-footer-title mt-3 mt-md-0">FOLLOW US</h5>
+              <div class="mb-3">
+                <a class="footer-social" href="https://github.com/Kamrun-Nahar-Bithi" aria-label="facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                <a class="footer-social" href="https://github.com/Kamrun-Nahar-Bithi" aria-label="tripadvisor"><i class="fa fa-tripadvisor" aria-hidden="true"></i></a>
+                <a class="footer-social" href="https://github.com/Kamrun-Nahar-Bithi" aria-label="instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+              </div>
+            </div>
+            <div class="col-md-3 h-100 border-left-custom">
+              <h5 class="page-footer-title mt-3 mt-md-0">NEWSLETTER</h5>
+              <p>
+                Complete the form to receive information on the latest events,
+                news and special offers at Dhaka.
+              </p>
+              <form id="newsletter-form">
+                <label class="sr-only" for="formEmail">Email</label>
+                <input type="email" class="form-control form-control-sm rounded" id="formEmail" placeholder="name@example.com">
+                <button type="submit" class="btn btn-sm btn-outline-light btn-block mt-2">Subscribe</button>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="page-footer-copyright container-fluid text-center">
+          © 2023 Food Bar &amp; Restaurant. All rights reserved.<br>
+          Design &amp; Development by <a href="https://github.com/Kamrun-Nahar-Bithi">Food & Element</a> (BIthi & Protik).
+        </div>
+    </footer>
+
+      <!-- <<--jQuery->  -->
+      <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous">
+    </script>
+
+      <!-- <<<-------Bootstrap-------> 
+
+      <script 
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" 
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" 
+      crossorigin="anonymous">
+    </script>
+    <script src="../js/site.js"></script>
+    <script src="../js/reservations-animations.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+    <script type="text/javascript" src="Js/index.js"></script>
+</body>
+
+</html>
